@@ -152,6 +152,9 @@
     <Content Include="img\b2.png" />
     <Content Include="img\b3.png" />
     <Content Include="img\b4.png" />
+    <Content Include="img\iphone-13-128gb_240.png" />
+    <Content Include="img\iphone-16e-128gb_240.png" />
+    <Content Include="img\iphone-air-1tb_240.png" />
     <Content Include="img\iphone17.jpeg" />
     <Content Include="img\SpIP14.png" />
     <Content Include="img\SpIP15e.png" />
