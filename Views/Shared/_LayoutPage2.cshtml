@@ -8,28 +8,90 @@
     <link href="~/Content/style/layout.css" rel="stylesheet" />
 </head>
 <body>
-  <section id="header">
-      <a href="#"><img src="~/img/b3.png" class="logo" style="width:180px;height:180px;"  /></a>
-     
-      <div id="navbar">
-          <ul>
-              <li><a href="~/Views/DieuKhien/Index.cshtml">Home</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-          </ul>        
-      </div>
-  </section>
-        @*/*baner*@
-   <section id="hero">
-        
-   </section>
-         @* tinh nang*@
-   <div>
+    <section id="header">
+        <a href="#"><img src="~/img/b3.png" class="logo" style="width:180px;height:180px;" /></a>
+
+        <div id="navbar">
+            <ul>
+                <li><a href="~/Views/DieuKhien/Index.cshtml">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    @*/*baner*@
+    <section id="hero">
+    </section>
+    @* tinh nang*@
+    <div>
         @RenderBody()
-   </div>
-    
+    </div>
+    @*BOTTOMM*@
+      @*new letter*@
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4> dang ki nhan bang tin</h4>
+        <p> nhan thong tin cap nhap qua email ve cua hang moi nhat cua chung toi va <span> cac uu dai dac biet</span></p>
+    </div>
+    <div class="form">
+        <input type="text" name="Your email address" value="Your email address"  />
+        <button class="normal"> dang ki </button>
+    </div>
+
+</section>
+@*footer*@
+<footer id="section-p1">
+    <div class="col">
+        @*<img class="logo" src="~/img/b3.png" style="width:180px;height:180px;" />*@
+        <h4> thong tin lien he </h4>
+        <p><strong>dia chi :</strong>Vietnam,HCM, Quan 10</p>
+        <p><strong>SDT: </strong>+239343843 / (+81)32 4356 34</p>
+        <p><strong>Gio:</strong>09:00 - 21:00, Mon - Sat</p>
+        <div class="follow">
+            <h4> follow chung toi</h4>
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4> lien he</h4>
+        <a href="#">Ve chung toi</a>
+        <a href="#">Thong tin giao hang</a>
+        <a href="#"> Chinh sach bao mat</a>
+        <a href="#">dieu khoang va dieu kien</a>
+        <a href="#">Lien he chung toi</a>
+    </div>
+    <div class="col">
+        <h4> Tai khoang cua chung toi</h4>
+        <a href="#">Dang nhap</a>
+        <a href="#">Xem gio hang</a>
+        <a href="#"> San pham yeu thich</a>
+        <a href="#">theo doi don hang cua chung toi</a>
+        <a href="#"> ho tro</a>
+    </div>
+    <div class="col">
+        <h4> tai ung dung</h4>
+        <p> Tu App Store hoac Google Play</p>
+        <div class="row">
+            <img src="~/img/gg-play.png" style=" width:80px;height:80px;" />
+            <img src="~/img/app-store.png" style=" width:120px;height:80px;"/>
+        </div >
+        <p> Cong thanh toan an toan</p>
+        <img src="~/img/momo.png" style=" width:50px;height:50px" />
+       
+    </div>
+    <div class="copyright">
+        <p> &copy; 2025, Dev </p>
+    </div>
+
+</footer>
 </body>
 </html>
